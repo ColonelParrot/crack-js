@@ -7,7 +7,7 @@ A Javascript class that enables you to brute force generate all possible Strings
 ## Import
 
 ```html
-https://cdn.jsdelivr.net/gh/ColonelParrot/crack-js@main/src/script.min.js
+<script src="https://cdn.jsdelivr.net/gh/ColonelParrot/crack-js@main/src/script.min.js"></script>
 ```
 
 ## Usage
