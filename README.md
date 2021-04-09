@@ -45,7 +45,7 @@ function callback(combo){
 new BruteForce(callback, 33, 126, 2, false)
 ```
 
-If you return `true` in the callback function, the premutation generator will be terminated.
+If you return `true` in the callback function, the premutation generator will be terminated. This is important when dealing with hashes of unknown length - not knowing when the program stops will waste a lot of time.
 
 The code prints:
 
