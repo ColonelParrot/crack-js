@@ -46,7 +46,7 @@ function callback(c){
 
 The following example demonstrates how you can crack a hash using Crack.js:
 
-```
+```javascript
 function sha256(text) {
   //Some calculations
 	return result;
