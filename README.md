@@ -39,7 +39,7 @@ $
 )
 *
 ```
-### Cracking a hash using Crack.js**
+### Cracking a hash using Crack.js
 
 The following code illustrates how to crach a hashed String using Crack.js:
 
