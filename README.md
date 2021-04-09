@@ -10,22 +10,21 @@ A Javascript class that enables you to brute force generate all possible Strings
 <script src="https://cdn.jsdelivr.net/gh/ColonelParrot/crack-js@main/src/script.min.js"></script>
 ```
 
-## Usage
+## Documentation
 
 Consider the following example:
 
 ```javascript
 function callback(combo){
-  console.log(combo);
+	console.log(combo);
 }
 new BruteForce(callback, 33, 125, 1, false)
 ```
+`callback` is a callback function. It passes a parameter that is the currently generated permutation.
 
-**33** is the ascii start code (e.g, `!`). **125** is the ascii end code (e.g, `|`). **1** defines how many digits to permute, and **false** defines whether it is async or not.
+`33` and `125` define what ascii codes to loop through. Set to `0, 255` to loop through all ascii characters.
 
-Using async should be used carefully. Not using async improves user experience (e.g, the page still is responsive) but makes it much more slower. Using async makes it lightning-fast, but freezes the page. The async-non-async ratio is approximately 30000ms : 7ms.
-
-The above code prints all ascii characters from `!` to `|`.
+`1` defines the number of digits and `false` defines whether it is async or not. Turning off async makes the page unresponsive, but greatly improves speed. The async to non-async ratio is 30000 : 7 milliseconds.
 
 **Cracking a hash using Crack.js**
 
