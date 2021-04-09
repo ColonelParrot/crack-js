@@ -18,15 +18,28 @@ Consider the following example:
 function callback(combo){
 	console.log(combo);
 }
-new BruteForce(callback, 33, 125, 1, false)
+new BruteForce(callback, 33, 43, 1, false)
 ```
 `callback` is a callback function. It passes a parameter that is the currently generated permutation.
 
-`33` and `125` define what ascii codes to loop through. Set to `0, 255` to loop through all ascii characters.
+`33` and `43` define what ascii codes to loop through. Set to `0, 255` to loop through all ascii characters.
 
 `1` defines the number of digits and `false` defines whether it is async or not. Turning off async makes the page unresponsive, but greatly improves speed. The async to non-async ratio is 30000 : 7 milliseconds.
 
-**Cracking a hash using Crack.js**
+In our case, it prints:
+```
+!
+"
+#
+$
+%
+&
+'
+(
+)
+*
+```
+### Cracking a hash using Crack.js**
 
 The following code illustrates how to crach a hashed String using Crack.js:
 
