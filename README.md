@@ -6,3 +6,4 @@ Can be used to quickly begin cracking hashes without having to write the calcula
 
 ## [Documentation](https://github.com/ColonelParrot/crack-js/blob/main/doc/documentation.md)
 
+## [Try it yourself](https://jsfiddle.net/ColonelParrot/ax1wqymn/7/)
